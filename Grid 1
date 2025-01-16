@@ -1,0 +1,65 @@
+<html>
+<style>
+#container{
+grid-template-columns: 500px 300px 200px 442px;
+grid-template-rows: 50px 200px 50px;
+grid-template-areas: 
+"header header header header"
+"sidebar main main main"
+"footer footer footer footer";
+display: grid;
+grid-gap: 10px;
+}
+#cell1{
+text-align: center;
+font-size: 20px;
+grid-area: header;
+background: blue;
+}
+#cell2{
+text-align: center;
+font-size: 20px;
+grid-area: sidebar;
+background: violet;
+}
+#cell4{
+text-align: center;
+font-size: 20px;
+grid-area: footer;
+background: red;
+}
+
+#cell3 {
+text-align: center;
+font-size: 20px;
+grid-area: main;
+background: yellow;
+}
+#ec1 > div{
+background-color: grey;
+inset-block: 300px 100px;
+}
+#ec1{
+display: grid;
+grid-template-rows: 100px 100px;
+grid-template-columns: 300px 300px 300px;
+grid-gap: 10px;
+justify-content: center;
+}
+</style>
+<div id = "container">
+<div id = "cell1">Header</div>
+<div id = "cell2">Aside</div>
+<div id = "cell3">Article
+<div id = "ec1">
+<div> Image1 </div>
+<div> Image2 </div>
+<div> Image3 </div>
+</div>
+</div>
+<div id="cell4">Footer</div>
+</div>
+</html>
+
+
+
