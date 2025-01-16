@@ -1,0 +1,77 @@
+<html>
+<style>
+<head>
+.container{
+display: grid;
+}
+.head{
+background : red;
+color: white;
+height: 200px;
+width: 61.2%;
+text-align: center;
+}
+.nav{
+background : violet;
+color: white;
+grid-area: navbar;
+height: 30px;
+width: 61.2%;
+text-align: center;
+}
+.inside{
+display: grid;
+grid-area: mainbar;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 250px;
+grid-template-areas: "sidebar main side"
+}
+.left{
+background : orange;
+color: white;
+grid-area: sidebar;
+text-align: center;
+}
+.right{
+background : black;
+color: white;
+grid-area: side;
+text-align: center;
+}
+.main{
+background : blue;
+color: white;
+grid-area: main;
+text-align: center;
+}
+.foot{
+background : brown;
+color: white;
+height: 80px;
+width: 61.2%;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="head"><h2>This is head</h2>
+</div>
+
+<div class="nav">
+<a href="#">Home</a>
+<a href="#">Contact Us</a>
+<a href="#">About</a>
+</div>
+
+<div class="inside">
+<div class="left"><h2>This is left</h2></div>
+<div class="right"><h2>This is right</h2></div>
+<div class="main"></div>
+</div>
+
+<div class="foot"><h2>This is foot</h2></div>
+
+</div>
+</body>
