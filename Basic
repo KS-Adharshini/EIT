@@ -1,0 +1,507 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<h1 align="center"><font size="10">BOOT STRAP</h1></font>
+
+<br>
+<h2><b>PROPERTIES THAT DOESN'T WORK</b></h4>
+<ul type="square">
+<h3><li>Table Color</li>
+<li>Image rounded corners</li>
+<li>Image circle</li>
+<li>Well property</li>
+</ul>
+
+</h3>
+<h2><font size="8">Container</h2></font>
+<p><font size="5">Containers are mainly used to hold values inside them<br>
+Container class has 2 types they are ,
+Container and
+Fluid Container<br>
+we use the class .container and .container-fluid
+</h3></font>
+
+<ul type="disc">
+
+<h3><li><b>CONTAINER</b></li></h3>
+<h4>It displays the content after leaving some amount of space at front and back of the web page</h4>
+<div class="container">
+<p>This is a container<br>Let's name this as 1st container</P>
+<p>This ia also a container <br>Let's name this as 2nd container</p>
+</div>
+
+<h3><b><li>CONTAINER - FLUID</li></b></h3>
+<h4>It displays the content without leaving some amount of space at front and back of the web page</h4>
+<div class="container-fluid well">
+<p>This is a container<br>Let's name this as 1st container</P>
+<p>This ia also a container <br>Let's name this as 2nd container</p>
+</div>
+
+
+<h3><b><li>FILL COLOR INSIDE THE CONTAINER</li></b></h3>
+<h4>We use the class bg-primary/danger... default colors like them</h4>
+<div class="container-fluid bg-primary text-white">
+<p>This is a container<br>Let's name this as 1st container</P>
+<p>This ia also a container <br>Let's name this as 2nd container</p>
+</div><br>
+<div class="container bg-danger text-white">
+<p>This is a container<br>Let's name this as 1st container</P>
+<p>This ia also a container <br>Let's name this as 2nd container</p>
+</div>
+<p>After Adding the colors we could see the difference between them</p>
+
+<h2><font size="8">GRID BASICS</h2></font>
+<h4>Grids are mainly used to create the boxes in them<br>They can contain maximum of 12 boxes in them . The number of boxes can br of any ratios like 10:2 , 6:6 ,3:4:4:1<br> To add additional properties we use "bg","text" for background and text color<br>sm,md,lg,xs these are the sizes of the device</h4>
+<div class="row">
+<div class="col-sm-6 bg-info text-white">Number 1</div>
+<div class="col-sm-4 bg-success text-white">Number 2</div>
+<div class="col-sm-2 bg-warning text-white">Number 3</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-6 bg-secondary text-white">Number 1</div>
+<div class="col-sm-6 bg-danger text-white">Number 2</div>
+</div>
+<br>
+<h2><font size="8">TABLE</h2></font>
+<h4>Same as Normal table created in HTML/CSS<br>Different types of class are used they are table,table-condensed,table-striped,table-border,table-hover
+we are supposed to use the class "table" as a complosary component<h4>
+<h3><b><li>NORMAL TABLE</li></b></h3>
+<table class="table">
+<tr>
+<th>Name</th>
+<th>Place</th>
+<th>Things</th>
+</tr>
+<tr>
+<td>Ridhanya</td>
+<td>Palakaad</td>
+<td>Fruit Stall</td>
+</tr>
+<tr>
+<td>Mohitha</td>
+<td>Salem</td>
+<td>10Rs</td>
+</tr>
+</table>
+
+<br>
+
+<h3><b><li>BORDERED TABLE</li></b></h3>
+<table class="table table-bordered">
+<tr>
+<th>Name</th>
+<th>Place</th>
+<th>Things</th>
+</tr>
+<tr>
+<td>Ridhanya</td>
+<td>Palakaad</td>
+<td>Fruit Stall</td>
+</tr>
+<tr>
+<td>Mohitha</td>
+<td>Salem</td>
+<td>10Rs</td>
+</tr>
+</table>
+
+<br>
+
+<h3><b><li>CONDENSED TABLE</li></b></h3>
+<table class="table table-condensed">
+<tr>
+<th>Name</th>
+<th>Place</th>
+<th>Things</th>
+</tr>
+<tr>
+<td>Ridhanya</td>
+<td>Palakaad</td>
+<td>Fruit Stall</td>
+</tr>
+<tr>
+<td>Mohitha</td>
+<td>Salem</td>
+<td>10Rs</td>
+</tr>
+</table>
+
+<br>
+
+<h3><b><li>STRIPED TABLE</li></b></h3>
+<table class="table table-striped">
+<tr>
+<th>Name</th>
+<th>Place</th>
+<th>Things</th>
+</tr>
+<tr>
+<td>Ridhanya</td>
+<td>Palakaad</td>
+<td>Fruit Stall</td>
+</tr>
+<tr>
+<td>Mohitha</td>
+<td>Salem</td>
+<td>10Rs</td>
+</tr>
+</table>
+
+<br>
+
+<h3><b><li>HOVER TABLE</li></b></h3>
+<table class="table table-hover">
+<tr>
+<th>Name</th>
+<th>Place</th>
+<th>Things</th>
+</tr>
+<tr>
+<td>Ridhanya</td>
+<td>Palakaad</td>
+<td>Fruit Stall</td>
+</tr>
+<tr>
+<td>Mohitha</td>
+<td>Salem</td>
+<td>10Rs</td>
+</tr>
+</table>
+
+<h3><b><li>COLORED TABLE</li></b></h3>
+<table class="table">
+<tr class="danger">
+<th>Name</th>
+<th>Place</th>
+<th>Things</th>
+</tr>
+<tbody>
+<tr class="active">
+<td>Ridhanya</td>
+<td>Palakaad</td>
+<td>Fruit Stall</td>
+</tr>
+<tr class="danger">
+<td>Mohitha</td>
+<td>Salem</td>
+<td>10Rs</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+<h2><font size="8">IMAGE</h2></font>
+<h4>Adding image to the web page using the different image outline/structure example round corners,circle,extra white border outside the image</h4>
+<br>
+
+<h3><b><li>ROUND CORNERS</li></b></h3>
+<img src="C:\Users\ADHARSHINI\Downloads\Woman with Horns.jpeg" class="img img-rounded" alt="Woman with Horns"  width="304" height="236">
+<br>
+
+<h3><b><li>CIRCLE</li></b></h3>
+<img src="D:\Html\n e b u l o u s.jpeg" alt="Slytherin" class="img img-circle" width="304" height="236">
+<br>
+
+<h3><b><li>THUMBNAIL</li></b></h3>
+<img src="C:\Users\ADHARSHINI\Downloads\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg" alt="HP Notice" class="img-thumbnail" width="304" height="236">
+<br>
+
+<h2><font size="8">ALTER</h2></font>
+<h4>These are the boxes which can link info inside them</h4>
+<br>
+
+<h3><b><li>NORMAL ALTER</li></b></h3>
+<div class="alert alert-info">
+This is a 3 credit course
+</div>
+<br>
+
+<h3><b><li>LINKS</li></b></h3>
+<div class="alert alert-success">
+All must the rules Mentioned <a href="#" class="alert-link">Click the Link</a>
+</div>
+<br>
+
+<h2><font size="8">BUTTONS</h2></font>
+<br>
+
+<h3><b><li>NORMAL BUTTON</li></b></h3>
+<button type="button" class="btn">Re-Set</button>
+<br>
+
+<h3><b><li>ACTIVE BUTTON</li></b></h3>
+<button type="button" class="btn active btn-warning">Active</button>
+<br>
+
+<h3><b><li>DISABLED BUTTON</li></b></h3>
+<button type="button" class="btn disabled">Disabled</button>
+<br>
+
+<h3><b><li>TYPE OF SUBMIT BUTTON</li></b></h3>
+<button type="button" class="btn btn-info">submit</button>
+<button type="submit" class="btn btn-success">submit</button>
+<input type="submit" class="btn btn-danger" value="submit">
+<br>
+
+<h3><b><li>LINK BUTTON</li></b></h3>
+<button href="#" class="btn-link">LINK</button>
+<br>
+
+<h3><b><li>BUTTON SIZE</li></b></h3>
+<button type="button" class="btn btn-xs">XSmall</button>
+<button type="button" class="btn btn-sm">Small</button>
+<button type="button" class="btn">Normal</button>
+<button type="button" class="btn btn-lg">Large</button>
+<br>
+
+<h2><font size="8">PAGINATION</h2></font>
+<h4>If you have a web site with lots of pages, you may wish to add some sort of pagination to each page.<br> We are supposed to use ul and li commands to execute pagination<h4>
+<br>
+
+<h3><b><li>SIMPLE PAGINATION</li></b></h3>
+<ul class="pagination">
+    <li class="page-item"><a class="page-link" href="D:\Html\n e b u l o u s.jpeg">1</a></li>
+    <li><a href="D:\Html\picture.jpg.jpeg">2</a></li>
+    <li><a href="D:\Html\R.gif">3</a></li>
+    <li><a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg">4</a></li>
+    <li><a href="D:\Html\Woman with Horns.jpeg">5</a></li>
+</ul>
+<br>
+<div class="pagination">
+    <a href="D:\Html\n e b u l o u s.jpeg">1</a>
+    <a href="D:\Html\picture.jpg.jpeg">2</a>
+    <a href="D:\Html\R.gif">3</a>
+    <a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg">4</a>
+    <a href="D:\Html\Woman with Horns.jpeg">5</a>
+<br>
+
+<h3><b><li>ACTIVE AND DISABLED</li></b></h3>
+<ul class="pagination">
+    <li  class="active"><a href="D:\Html\n e b u l o u s.jpeg">1</a></li>
+    <li><a href="D:\Html\picture.jpg.jpeg">2</a></li>
+    <li class="disabled"><a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg">3</a></li>
+<br>
+</ul>
+<h3><b><li>SIZE</li></b></h3>
+<ul class="pagination pagination-ls">
+    <li><a href="D:\Html\n e b u l o u s.jpeg">1</a></li>
+    <li><a href="D:\Html\picture.jpg.jpeg">2</a></li>
+    <li><a href="D:\Html\R.gif">3</a></li>
+    <li><a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg">4</a></li>
+    <li><a href="D:\Html\Woman with Horns.jpeg">5</a></li>
+</ul>
+<br>
+
+<ul class="pagination pagination-lg">
+    <li><a href="D:\Html\n e b u l o u s.jpeg">1</a></li>
+    <li><a href="D:\Html\picture.jpg.jpeg">2</a></li>
+    <li><a href="D:\Html\R.gif">3</a></li>
+    <li><a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg">4</a></li>
+    <li><a href="D:\Html\Woman with Horns.jpeg">5</a></li>
+</ul>
+<br>
+
+<h3><b><li>BREADCRUMBS</li></b></h3>
+<h4>The breadcrumb class indicates the current page's location </h4>
+<ul class="pagination pagination-breadcrumb">
+    <li><a href="D:\Html\n e b u l o u s.jpeg">1</a></li>
+    <li><a href="D:\Html\picture.jpg.jpeg">2</a></li>
+    <li><a href="D:\Html\R.gif">3</a></li>
+    <li><a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg">4</a></li>
+    <li class="active"><a href="D:\Html\Woman with Horns.jpeg">5</a></li>
+</ul>
+<br>
+
+<h2><font size="8">LISTING</h2></font>
+<h4>listing and pagination contains similar property but the main differnce are rows and column.
+In pagination both "ul" and "a" are used
+but In listing any one is used in a time</h4>
+
+<h3><b><li>BASIC LISTING</li></b></h3>
+<ul class="list-group">
+    <li class="list-group-item">1</li>
+    <li class="list-group-item">2</li>
+    <li class="list-group-item">3</li>
+    <li class="list-group-item">4</li>
+    <li class="list-group-item">5</li>
+</ul>
+
+<h3><b><li>LISTING BADGE</li></b></h3>
+<div class="list-group">
+    <a href="D:\Html\n e b u l o u s.jpeg" class="list-group-item">1<span class="badge">134</span></li>
+    <a href="D:\Html\picture.jpg.jpeg" class="list-group-item">2<span class="badge">13</span></li>
+    <a href="D:\Html\R.gif" class="list-group-item">3<span class="badge">1</span></li>
+    <a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg" class="list-group-item">4<span class="badge">167</span></li>
+    <a href="D:\Html\Woman with Horns.jpeg" class="list-group-item">5<span class="badge">1</span></li>
+</div>
+
+<h3><b>LINKS</b></h3>
+<div class="list-group">
+    <a href="#" class="list-group-item">1</a>
+    <a href="#" class="list-group-item">2</a>
+    <a href="#" class="list-group-item">3</a>
+    <a href="#" class="list-group-item">4</a>
+    <a href="#" class="list-group-item">5</a>
+</div>
+
+<h3><b><li>COLOR , ACTIVE AND DISABLED</li></b></h3>
+<div class="list-group">
+    <a href="D:\Html\n e b u l o u s.jpeg" class="list-group-item disabled">1</a></li>
+    <a href="D:\Html\picture.jpg.jpeg" class="list-group-item active">2</a></li>
+    <a href="D:\Html\R.gif" class="list-group-item list-group-item-success">3</a></li>
+    <a href="D:\Html\The Harry Potter and Fantastic Beasts Easter Egg You May Have Missed.jpeg" class="list-group-item">4</a></li>
+</div>
+<br>
+
+<h2><font size="8">DROPDOWN</h2></font>
+<h4>They are the selection options.<br>They can both both "a" and "ul" class at same time</h4>
+<br>
+
+<h3><b><li>SIMPLE DROPDOWN</li></b></h3>
+<div class="dropdown">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">courses
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="#">HTML</a></li>
+<li><a href="#">CSS</a></li>
+<li><a href="#">BOOTSTRAP</a></li>
+</ul>
+</div>
+
+<h3><b><li>DIVIDER DROPDOWN</li></b></h3>
+<div class="dropdown">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">courses
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="#">HTML</a></li>
+<li><a href="#">CSS</a></li>
+<li><a href="#">BOOTSTRAP</a></li>
+<li class="divider"></li>
+<li><a href="#">More</a></li>
+</ul>
+</div>
+
+<h3><b><li>HEADER DROPDOWN</li></b></h3>
+<div class="dropdown">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">courses
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li class="dropown-header">Items 1</li>
+<li><a href="#">HTML</a></li>
+<li><a href="#">CSS</a></li>
+<li><a href="#">BOOTSTRAP</a></li>
+<li class="dropown-header">Items 2</li>
+<li><a href="#">C++</a></li>
+<li><a href="#">JAVA</a></li>
+<li><a href="#">PYTHON</a></li>
+</ul>
+</div>
+
+<h3><b><li>ACTIVE AND DISABLED</li></b></h3>
+<div class="dropdown">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">courses
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li class="active"><a href="#">HTML</a></li>
+<li class="disabled><a href="#">CSS</a></li>
+<li><a href="#">BOOTSTRAP</a></li>
+</ul>
+</div>
+
+<h3><b><li>POSITION DROPDOWN</li></b></h3>
+<div class="dropdown">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">courses
+<span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right">
+<li><a href="#">HTML</a></li>
+<li><a href="#">CSS</a></li>
+<li><a href="#">BOOTSTRAP</a></li>
+</ul>
+</div>
+
+<h3><b><li>DROPUP</li></b></h3>
+<div class="dropup">
+<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">courses
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="#">HTML</a></li>
+<li><a href="#">CSS</a></li>
+<li><a href="#">BOOTSTRAP</a></li>
+</ul>
+</div>
+
+<h2><font size="8">NAVIGATION</h2></font>
+
+<h3><b><li>BASIC NAVIGATION BAR</li></b></h3>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid"><
+<div class="nav-header">
+<p class="navbar-brand">
+KEC</p>
+</div>
+
+<ul class="nav navbar-nav">
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Pictures</a></li>
+<li class="dropdown">
+<a class="div-toggle" data-toggle="dropdown">More
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li><a href="#">hello</a></li>
+<li><a href="#">guys</a></li>
+<li><a href="#">good</a></li>
+</ul>
+</li>
+</div>
+</nav>
+</ul>
+
+<h3><b><li>GLYPHION</li></b></h3>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#" class="glyphicon glyphicon-user">User</a></li>
+<li><a href="#" class="glyphicon glyphicon-log-in"> Login</a></li>
+<li><a href="#" class="glyphicon glyphicon-search"></a></li>
+</ul>
+</div>
+</nav>
+
+<h2><font size="8">FORM</h2></font>
+
+<form>
+<div class="container">
+<h1>Application form</h1>
+<label class="form-Label">Name</label>
+<input class="form-control" placeholder="Enter your Name" type="text" id="Name" required>
+
+<label class="form-label">Address</label>
+<input class="form-control type="text" placeholder="Enter your Address">
+
+<label class="form-label">Gmail</label>
+<input class="Form-control" type="Gmail" placeholder="Enter your email id">
+
+<label class="form-label">Password</label>
+<input class="form-control" type="password" placeholder="Enter your password" id="password">
+
+<label class="form-check-label">Gender</label><br>
+<input class="form-check-input" Name="Gender" id="Female" type="radio">Female
+<input class="form-Check-Input" id="male"  name="Gender" type="radio">Male<br>
+
+<label class="form-check-label">Course</label><br>
+<input class="form-check-input" value="C" type="checkbox" checked>C
+<input class="form-check-input" value="C" type="checkbox">C++
+<input class="form-check-input" value="C" type="checkbox">Java
+<input class="form-check-input" value="C" type="checkbox">Python
+<input class="form-check-input" value="C" type="checkbox">Html<br>
+
+<button class="btn" type="submit">Submit</button>
