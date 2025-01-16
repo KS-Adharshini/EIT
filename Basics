@@ -1,0 +1,175 @@
+<html>
+<font size='6'> 
+<h1 align='center'> Essential of information technology </h1> 
+</font>
+<font size='6'> 
+<h2 align ='center'> HTML Basics </h2> 
+</font>
+
+
+<font size='6'> 
+<h3><ul><li>Text Formating Tag</li> </h3>
+<p> A tag which is used for changing the nature of the texts like, <br> </p> 
+</font>
+<font size='6'> 
+<p> <b>Bolding</b> <br> <i>Italicing</i> <br> <s>Striking</s> <br> e<sup>x</sup> <br> O<sub>2</sub> <br> <u>Underline</u> <br> Alignment </p> 
+</font>
+
+
+<font size='6'> 
+<h3> <li>Font Tag </li></h3>
+<p> Which is used to change the font style , color , size. <br> </p> 
+</font>
+<p>Hello(orginal)<br><font size='6'> Hello(changed) <br> <font face='broadway'> Welcome </p> </font> </font>
+
+
+
+<font size='6'> 
+<h3> <li> Image Tag </li></h3>
+<p> Images can be inserted in it using image tag</p>
+</font>
+<img src="D:\Html\picture.jpg.jpeg" , alt='cool pic', width='500px' ,height='500px'>
+
+
+
+<font size = "6" > <h3> <li>List Tag </li></h3> </font>
+<p> <font size = "6"> List tag is commonly known as bullaten point , containts 2 types of list order and unorder list <br> 
+<b> Order list </b> </br> which contains bullten like (1 ,2 ,3) (I ,II ,III) (i , ii , iii) (a, b ,c) <br> 
+<ol>
+<li> One </li>
+<li> Two </li>
+<li> Three </li>
+<li> Four </li>
+<li> Five </li>
+</ol>
+<ol type = "I">
+<li> One </li>
+<li> Two </li>
+<li> Three </li>
+<li> Four </li>
+<li> Five </li>
+</ol>
+<b> Unorder list </b> <br> list containts bulleten like (circle , triangle , square) <br>
+<ul>
+<li> One </li>
+<li> Two </li>
+<li> Three </li>
+<li> Four </li>
+<li> Five </li>
+</ul>
+<ul type = "square">
+<li> One </li>
+<li> Two </li>
+<li> Three </li>
+<li> Four </li>
+<li> Five </li>
+</ul>
+</p>
+</font>
+</ul>
+
+
+
+<font size='6'> 
+<h3> <li>Table Tag</li> </h3>
+<p>Tables of our choice and size can be created </p>
+
+<table border = '5px' , width = "800" , height = "200">
+<tr bgcolor = "pink" >
+<th width = "200" , height = "50" , align = "center">Name</th> 
+<th>Place</th> 
+<th>Animal</th> 
+<th>Thing</th> 
+<th rowspan="5" >
+<b>G<br>a<br>m<br>e<br><br>T<br>i<br>m<br>e</b>
+</th>
+</tr>
+<tr>
+<td width = "200" , height = "50" , align = "center">Adharshini</td>
+<td align = "center">America</td> 
+<td align = "center">Ant</td> 
+<td align = "center">Apple</td> 
+</tr>
+<tr>
+<td width = "200" , height = "50" , align = "center">Berlin</td> 
+<td align = "center">Bangladesh</td> 
+<td align = "center">Bear</td> 
+<td align = "center">Ball</td> 
+</tr>
+<tr>
+<td width = "200" , height = "50" , align = "center">catrin</td> 
+<td align = "center">califonia</td> 
+<td align = "center">camel</td> 
+<td align = "center">cot</td> 
+</tr>  
+<tr> 
+<td colspan = "4" , align = "center" , bgcolor = "pink"> <b>Game Time</b> <td> </tr>
+</table>
+</font>
+
+
+<font size='6'>
+<h3><li>Marquee</li></h3>
+<p> It is an intresting method used in animations. </p>
+<marquee behavior="slide" , direction = "left"> Hello Beautiful world </marquee>
+<marquee direction = "right" , bgcolor = "pink"> Hello Beautiful world </marquee>
+<marquee behavior="scroll" , direction = "right" , bgcolor = "baby pink" , scrollamount = "100"> Hello Beautiful world </marquee>
+<br> Here comes my Favoo Part, </br>
+<marquee direction = 'left' , Behavior = 'alternate' >
+<img src="D:\Html\R.gif" , alt='duckyy duckyy', width='500px'>
+</marquee>
+</font>
+
+
+
+<font size = "6">
+<h3><li>Anchor Tag</li></h3>
+<p>Helps to add a link , document to the web page we design<br></p>
+<p>The application which helped a lot to understand HTML is a channal namber joe stanley <br> click on time to study to understand the concept</p>
+<a href = 'https://www.tutorjoes.in/html_tutorial/index' , target="bb" >time to study</a><br>
+<a href = 'file:///D:/tabletablet.htm' , target = "_blank">Table</a>
+<iframe src="" , name="bb" , height="500px" , width="500px">
+</iframe>
+</font>
+
+
+<font size = "6">
+<h3><li>Form Tag</li></h3>
+<p>Which is very uesful for the creation of forms</P><br>
+<fieldset>
+<legend><b>APPLICATION<b></legend>
+<form>
+<lable>Name</lable>
+<input type="text"><br>
+<lable>DOB</lable>
+<input type="date"><br>
+<lable>Password</lable>
+<input type="password"><br>	
+<lable>Select Course</label>
+<select>
+<option value="1" >AIML</option>
+<option value="2" >AIDS</option>
+<option value="3" >MTS</option>
+<option value="4" >ECE</option>
+<option value="5" >EEE</option>
+</select><br>
+<lable>Area of intrest</label>
+<select multiple>
+<option value="1" >READING</option>
+<option value="2" >SINGING</option>
+<option value="3" >DANCING</option>
+<option value="4" >DRAWING</option>
+<option value="5" >SPORTS</option>
+</select><br>
+<lable>Attachment</lable>
+<input type="file" multiple><br>
+<lable>Gender<lable>
+<input type="radio" name="Male">Female
+<input type="radio" name="Male">Male
+<br><lable>Address</lable>
+<textarea , rows="10" , cols="50"></textarea><br>
+<input type="checkbox" >I AGREE.<br>
+<input type="submit">
+</form>
+</fieldset>
+</html>
