@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<div class="row bg-success">
+     <div class="col-sm-6">
+     <img src="D:\Essentials of Information technology\Images\Greater kudu Behavior and social organization.jpeg" alt="1" height="600px" width="743px">
+     </div>
+
+     <div class="col-sm-6">
+         <div class="row bg-danger">
+               <div class="col-sm-6">
+               <img src="D:\Essentials of Information technology\Images\download (10).jpeg" alt="2" height="300px" width="380px">
+               </div>
+               <div class="col-sm-6">
+               <img src="D:\Essentials of Information technology\Images\download (11).jpeg" alt"3" height="300px" width="365px">
+               </div>
+         </div>
+         <div class="row bg-warning">
+               <div class="col-sm-6">
+               <img src="D:\Essentials of Information technology\Images\В Африке дожди.jpeg" alt="4" height="300px" width="744px">
+               </div>
+         </div>
+      </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
