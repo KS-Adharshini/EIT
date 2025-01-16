@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <style>
+.days
+    {
+      background-color : lightgreen;
+      color : black;
+    }
+.eit
+    {
+      background-color : yellow;
+      color : black;
+    }
+.cp
+    {
+      background-color : orange;
+      color : black;
+    }
+.cs
+    {
+      background-color : violet;
+    }
+.mat
+    {
+      background-color : indigo;
+      color : white;
+    }
+.phy
+    {
+      background-color : green;
+      color : white;
+    }
+.tam
+    {
+      background-color : pink;
+    }
+.oth
+    {
+      background-color : brown;
+      color : white;
+    }
+.Time
+    {
+      background-color : skyblue;
+    }
+.period
+    {
+       background-color : blue;
+       color : white;
+    }
+.period1
+    {
+       background-color : red;
+       color : white;
+    }
+  </style>
+<table border="2" align="center">
+  <body>
+      <h1 align="center"><b>Time table</b></style></h1>
+        <tr>
+          <td style="background-color:red ; color:white">Days</td>
+          <td class="Time">8:45 to 9:40</td>
+          <td class="Time">9:40 to 10:25</td>
+          <td class="Time">10:25 to 10:45</td>
+          <td class="Time">10:45 to 11:30</td>
+          <td class="Time">11:30 to 12:15</td>
+          <td class="Time">12:15 to 1:15</td>
+          <td class="Time">1:15 to 2:00</td>
+          <td class="Time">2:00 to 2:45</td>
+          <td class="Time">2:45 to 3:00</td>
+          <td class="Time">3:00 to 3:45</td>
+          <td class="Time">3:45 to 4:30</td>
+        </tr>
+        <tr>
+          <td class="period1">No.</td>
+          <td class="period1">1</td>
+          <td class="period1">2</td>
+          <td rowspan="7" align="center" class="period">B<br>r<br>e<br>a<br>k</td>
+          <td class="period1">3</td>
+          <td class="period1">4</td>
+          <td rowspan="7" align="center" class="period">L<br>u<br>n<br>c<br>h<br></td>
+          <td class="period1">5</td>
+          <td class="period1">6</td>
+          <td rowspan="7" align="center" class="period">B<br>r<br>e<br>a<br>k</td>
+          <td class="period1">7</td>
+          <td class="period1">8</td>
+        </tr>
+        <tr>
+          <td class="days">Monday</td>
+          <td colspan="2" align="center" class="cp">CP</td>
+          <td class="mat">MODE</td>
+          <td class="cs">CS-1</td>
+          <td colspan="2" align="center" class="phy">Phy</td>
+          <td colspan="2" align="center" class="eit">EIT</td>
+        </tr>
+        <tr>
+          <td class="days">Tuesday</td>
+          <td class="cs">CS-I</td>
+          <td class="phy">Phy</td>
+          <td colspan="2" align="center" class="mat">Mat Lab</td>
+          <td colspan="2" align="center" class="cp">CP</td>
+          <td class="cp">CP</td>
+          <td class="cs">CS-I</td>
+        </tr>
+        <tr>
+          <td class="days">Wednesday</td>
+          <td class="phy">Phy</td>
+          <td class="oth">Lib</td>
+          <td class="phy">Phy</td>
+          <td class="oth">Lib</td>
+          <td class="mat">MODE</td>
+          <td class="cp">CP</td>
+          <td class="cs">CS-I</td>
+          <td class="mat">MODE</td>
+        </tr>
+        <tr>
+          <td class="days">Thursday</td>
+          <td class="eit">EIT</td>
+          <td class="phy">Phy Lab</td>
+          <td colspan="2" align="center" class="phy">Phy Lab</td>
+          <td class="cp">CP</td>
+          <td class="eit">EIT</td>
+          <td class="eit">EIT</td>
+          <td class="cs">CS-I</td>
+        </tr>
+        <tr>
+          <td class="days">Friday</td>
+          <td colspan="2" align="center" class="mat">MODE</td>
+          <td class="phy">Phy</td>
+          <td class="cp">CP</td>
+          <td class="tam">Tamil</td>
+          <td class="eit">EIT</td>
+          <td class="oth">Lib</td>
+          <td class="cp">CP</td>
+        </tr>
+        <tr>
+          <td class="days">Saturday</td>
+          <td class="cp">CP</td>
+          <td class="cs">CS-I</td>
+          <td class="phy">Phy</td>
+          <td class="tam">Tamil</td>
+          <td class="mat">MODE</td>
+          <td class="eit">EIT</td>
+          <td class="cs">SPD</td>
+          <td class="oth">PED</td>
+        </tr>
+      </table>
+  </body>
+</html>
