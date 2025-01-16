@@ -1,0 +1,204 @@
+<h1> <font size='25'> <b>Inline CSS command</b></h1></font>
+<p> <font size ='6'>commands are written in single command</p></font>
+<h1 style="color:red ; background-color:black" align="center">Helloo</h1>
+<h1 style="color:red ; background-color:black" align="center">World</h1>
+
+<p> <font size='25'><b>Internal CSS command</b></p></font>
+<p> <font size ='6'>commands are written in multiple line</p></font>
+<style>
+.n
+{
+color:pink;background-color:brown;
+}
+</style>
+<h1 class = n align ="center">Hello</h1>
+<h1 class = n align ="center">World</h1>
+
+<p><font size='25'><b>External CSS command</b></p></font>
+<p> <font size ='6'>Command which is used entered from external .css file </p></font>
+<p id="x" > <font size='6'>It's my pleasure to meet you all</p> </font>
+<link rel="stylesheet" href="D:\Html">
+
+<p> <font size='25'><b>Div Command </b></p></font>
+<p> <font size ='6'> 'h1,p' basic tags are used to perform of specific command for 1 line (white)</p></font>
+<p> <font size ='6'> '#' is used to perform of specific command for 1 line (violet)</p></font>
+<p> <font size ='6'>'.' is used to combine 2 or more lines and perform single command (brown)</font></p>
+<p> <font size ='6'>'h1,p'{more than 1 is used) used to a line and perform single command to all (black)</p></font>
+<p> <font size ='6'>'*' is used to combine all lines and perform single command </font></p>
+<p> <font size ='6'>'p/h1.words' is used to select specific line under a group of line with same class and display single command (red)</font></p>
+<style>
+div{
+background-color: lightblue;
+height: 600px;
+width: 600px;
+}
+h2{
+color: white;
+font-size: 30px;
+text-align: center;
+}
+#abc{
+color: violet;
+text-align: center;
+}
+.bcd{
+color: brown;
+font-size: 30px;
+text-align: center;
+}
+h3,h4,h5{
+color: black;
+font-size: 30px;
+text-align: center;
+}
+p.case{
+color: red;
+font-size: 30px;
+text-align: center;
+</style>
+</head>
+<div>
+<h2>Happy Birthday</h2>
+<h2 id="abc">To You</h2>
+<h2 class="bcd">May God Bless you Dear</h2>
+<p class="bcd">by ur frnd</p>
+<h3>Happy Birthday</h3>
+<h4>To You</h4>
+<h5>May God Bless you Dear</h5>
+<p class="bcd case"> Have a great year </p>
+</div>
+
+<p><font size='25'><b>CSS Border Style</b></p></font>
+<p><font size='6'>This property specifies what kind of border to display</p></font>
+<style>
+.i{border-style: dotted;}
+.j{border-style: dashed;}
+.k{border-style: solid;}
+.l{border-style: double;}
+.m{border-style: groove;}
+.n{border-style: ridge;}
+.o{border-style: inset;}
+.p{border-style: outset;}
+.q{border-style: none;}
+.r{border-style: hidden;}
+.s{border-style: dotted dashed solid double;}
+</style>
+<p class='i'>Learn cascading sheet selection</p>
+<p class='j'>Learn cascading sheet selection</p>
+<p class='k'>Learn cascading sheet selection</p>
+<p class='l'>Learn cascading sheet selection</p>
+<p class='m'>Learn cascading sheet selection</p>
+<p class='n'>Learn cascading sheet selection</p>
+<p class='o'>Learn cascading sheet selection</p>
+<p class='p'>Learn cascading sheet selection</p>
+<p class='q'>Learn cascading sheet selection</p>
+<p class='r'>Learn cascading sheet selection</p>
+<p class='s'>Learn cascading sheet selection</p>
+
+<h1> <font size='25'> Flexbox </h1> </font>
+<p> <font size='6'> It is very useful in creating box like structure </font></p>
+<style>
+.alpha
+{
+display: flex ;
+background-color: darkgreen ;
+}
+.alpha di
+{
+background-color: lightgreen ;
+color: white ;
+margin: 10px ;
+padding: 10px ;
+}
+</style>
+<font size='6'>
+<di class="alpha">
+<di> Ice cream </di>
+<di> Chocolate </di>
+<di> Biscuit </di>
+<di> Jelly </di>
+<di> Chips </di>
+</di>
+</font>
+<h1> <font size='6'> <b>Column wise</b> </h1> </font>
+<p> <font size='6'> "flex-direction : column" command is used </font></p>
+<style>
+.alph
+{
+display: flex;
+flex-direction: column ;
+background-color: darkgreen ;
+}
+.alph duv
+{
+background-color: lightgreen ;
+color: white ;
+margin: 10px ;
+padding: 10px ;
+}
+</style>
+<font size='6'>
+<duv class="alph">
+<duv> Ice cream </duv>
+<duv> Chocolate </duv>
+<duv> Biscuit </duv>
+<duv> Jelly </duv>
+<duv> Chips </duv>
+</duv>
+</font>
+<h1> <font size='6'> <b>Reversing Column/row wise</b> </h1> </font>
+<p> <font size='6'> "flex-direction : column-reverse" command is used </font></p>
+<style>
+.alp
+{
+display: flex;
+flex-direction: column-reverse ;
+background-color: darkgreen ;
+}
+.alp d
+{
+background-color: lightgreen ;
+color: white ;
+margin: 10px ;
+padding: 10px ;
+}
+</style>
+<font size='6'>
+<d class="alp">
+<d> Ice cream </d>
+<d> Chocolate </d>
+<d> Biscuit </d>
+<d> Jelly </d>
+<d> Chips </d>
+</d>
+</font>
+<h1> <font size='6'> <b>Justify-content</b> </h1> </font>
+<p> <font size='6'> "justify-content: center" command is used </font></p>
+<style>
+.al
+{
+display: flex;
+justify-content: center;
+background-color: darkgreen ;
+}
+.al du
+{
+background-color: lightgreen ;
+color: white ;
+margin: 10px ;
+padding: 10px ;
+}
+</style>
+<font size='6'>
+<du class="al">
+<du> Ice cream </du>
+<du> Chocolate </du>
+<du> Biscuit </du>
+<du> Jelly </du>
+<du> Chips </du>
+</du>
+</font>
+
+
+
+
