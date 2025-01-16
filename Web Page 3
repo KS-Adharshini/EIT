@@ -1,0 +1,183 @@
+
+<h1>1.Examples Of the Formatting Tags</h1>
+<p>
+The <b>Bold</b> Text
+<br>
+The <i>Italics</i> Text
+<br>
+The <u>Underlined</u> Text
+<br>
+The Superscript: 2<sub>n</sub> Text
+<br>
+The Superscript: X<sup>1</sub> Text
+<br>
+The <small>Small</small> Text
+<br>
+The <big>Big</big> Text
+<br>
+The <strong>Strong</strong> Text
+<br>
+The <e>Underlined</e> Text
+<br>
+The <highlight>Underlined</highlight> Text
+<br>
+The <strike>Strike through</strike> Text
+<br>
+</p>
+
+
+<h1>2.Write the html code to design the following table</h1>
+<table border="2">
+
+<tr>
+<th>Name</th>
+<th>Subject</th>
+<th>Mark</th>
+</tr>
+
+<tr>
+<td rowspan="3">Mark Smith</td>
+<td>English</td>
+<td>67</td>
+</tr>
+
+<tr>
+<td>Maths</td>
+<td>82</td>
+</tr>
+
+<tr>
+<td>Science</td>
+<td>91</td>
+</tr>
+
+</table>
+
+<h1>3.Design the form using HTML for the given image</h1>
+
+<form>
+<label>Name: </lable>
+<input type="text" id="name">
+<br><br>
+<lable>Age: </lable>
+<input type="dob" id="dob">
+<br><br>
+<lable>Sex: </lable><br>
+<input type="radio" id="female" name="female">Female<br>
+<input type="radio" id="male" name="female">Male
+<br><br>
+<lable>Country: </lable>
+<select>
+<option value="1" placeholder="Select an option">India</option>
+<option value="2" >America</option>
+<option value="3" >Srilanka</option>
+<option value="4" >Bangladesh</option>
+<option value="5" >Nepal</option>
+</select><br><br>
+<Lable>Message: </lable>
+<br>
+<textarea type="textarea" rows="5" cols="50">
+</textarea>
+<br><br>
+<input type="submit">
+</form>
+
+<h1>4.Create the below web page design using page structured elements</h1>
+
+<style>
+	
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: left;
+                text-size: 25px;
+		color: white;
+	}
+
+	.background {
+		background:green;
+	}
+
+        .background1 {
+		background: black;
+	}
+
+	.nav-list a {
+                padding: 26px 30px;
+	}
+
+	.text-footer {
+		text-align: center;
+		padding: 30px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+        .header {
+                font-size:50px;
+                color:green;
+                text-align:left;
+        }
+        .head1 {
+                font-size:25px;
+                font-color:black;
+                text-align:left;
+        }
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <div class="header">
+       Kongu Enginnering Collage
+    </div>
+    <div class="head1">
+       Department of Artificial Intelligence
+    </div>
+</head>
+ <br>
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			</div>
+			<a>HOME</a>
+			<a>NEWS</a>
+			<a>NOTIFICATION</a>
+		</ul>
+
+		
+	</nav>
+
+	<section class="section">
+		Content Section<br><br><br><br>
+	</section>
+
+	<footer class="background1">
+		<p class="text-footer">
+			Footer Section
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
+
+
+<h1>5.Create a given web page with the following styles using External css sheet</h1>
+
+<html>
+<link rel="stylesheet" href="C:\Users\ADHARSHINI\Documents\External.css">
+
+<center>
+<img src="D:\Essentials of Information technology\Images\Das perfekte Foto vom Pragser Wildsee.jpeg" width="200px" height="200px"><br><br>
+<button class="btn" style="border-radius: 12px;"  href="#">Nature</button>
+<button class="btn" style="border-radius: 12px;" href="#">Lake</button>
+<h3>Pragser Wildsee</h3> 
+<p>Pragser Wildsee is one of the most popular <br> places to visit in the Dolomites.<br> This crystal-clear aquamarine lake,<br> with its dramatic mountainous backdrop,<br> easy walking trail, and rowboats,<br> has long been attracting visitors.<p>
+<button class="btn" style="border-radius: 12px;" href="#">Read More</button>
+</center>
+</html>
