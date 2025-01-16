@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+nav{
+font-size: 30px;
+}
+
+body{
+height:100%;
+width:100%;
+}
+
+.text{
+font-size:70px;
+text-align:center;
+font-family: "Times New Roman", Times, serif;
+color: white;
+}
+
+.text2{
+font-size:20px;
+text-align:center;
+font-family: "Lucida Console", "Courier New", monospace;
+color: white;
+}
+
+</style>
+
+<body background="D:\Essentials of Information technology\Images\WhatsApp Image 2023-12-29 at 22.46.58_1aa178e5.jpg">
+
+<nav class="navbar navbar-default">
+<div class="navbar-brand">
+My School
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Join Now</a></li>
+
+<li class="dropdown">
+<a class="div-toggle" data-toggle="dropdown">Pages
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="dropdown-item"><a href="#">1</a></li>
+<li class="dropdown-item"><a href="#">1</a></li>
+<li class="dropdown-item"><a href="#">1</a></li>
+<li class="dropdown-item"><a href="#">1</a></li>
+</ul>
+</li>
+
+<li><a href="#">Contact</a></li>
+<li><a href="#">Login</a></li>
+<li><a href="#">Register</a></li>
+</ul>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="text">
+Welcome to My School<br>
+Best For Education
+</div>
+<div class="text2">
+Join the My school now
+</div>
+<br>
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-sm-2"> </div>
+<div class="col-sm-5"><textarea rows="2" cols="50" placeholder="First Name">
+</textarea></div>
+<div class="col-sm-4"><textarea rows="2" cols="50" placeholder="Mobile Number">
+</textarea></div>
+
+<div class="col-sm-2"> </div>
+<div class="col-sm-5"><textarea rows="2" cols="50" placeholder="Last Name">
+</textarea></div>
+<div class="col-sm-4"><textarea rows="2" cols="50" placeholder="Your Message">
+</textarea></div>
+
+</div>
+<br>
+<center>
+<button class="btn btn-lg btn-danger" style="padding: 15px 50px;"
+  text-align: center; href="#">Submit</button>
+</center>
+</body>
+
+
+
